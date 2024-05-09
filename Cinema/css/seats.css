@@ -1,0 +1,144 @@
+/*Font from google*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+    background: #1f2025;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#content {
+    display: flex;
+}
+
+#side-bar {
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#side-bar img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#side-bar p {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+#seat-selection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0;
+}
+
+#seat-selection .available {
+    width: 50px;
+    height: 50px;
+    background-color: #45a049;
+    margin: 5px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#seat-selection .selected {
+    width: 50px;
+    height: 50px;
+    background-color: #EF0107;
+    margin: 5px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#seat-selection ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+#seat-selection .seat-row {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    padding: 5px 0;
+}
+
+#seat-selection .seat-row li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-label {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.seat-row {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.seat-row li:hover {
+    transform: scale(1.25);
+    transition: ease 0.3s;
+}
+
+li {
+    display: flex;
+    align-items: center; /* Alinha os elementos verticalmente no centro */
+}
+
+.seats-price {
+    height: 1rem;
+    font-size: 1.2rem;
+    padding: 1.5rem 0;
+    color: #fff;
+}
+
+#selected-seats-container {
+    width: 45rem;
+    margin: 0 auto;
+    text-align: right;
+    padding: 0;
+}
+
+#selected-seats-container h2 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#confirm-button {
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    display: inline-block;
+    transition: ease 0.3s;
+}
+
+#confirm-button:hover {
+    cursor: pointer;
+    background-color: #45a049;
+    transform: scale(1.1);
+}

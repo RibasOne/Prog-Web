@@ -1,0 +1,108 @@
+/*Font from google*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #1f2025;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(155,170,175,1) 35%, rgba(65,90,100,1) 100%); 
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    margin: 20px auto;
+    color: white;
+}
+
+#items {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2025;
+    padding: 2rem 0;
+    border: #fff 2px solid;
+    border-radius: 0.5rem;
+}
+
+.item img {
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+}
+
+.item-title {
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.price {
+    display: flex;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.702);
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity{
+    display: flex;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 7px;
+    margin: 0 auto;
+}
+
+.total {
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    background-color:#1f2025;
+    padding: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#confirm-button {
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin: 1rem 1rem;
+    display: inline-block;
+    transition: ease 0.3s;
+}
+
+#confirm-button:hover {
+    cursor: pointer;
+    background-color: #45a049;
+    transform: scale(1.1);
+}

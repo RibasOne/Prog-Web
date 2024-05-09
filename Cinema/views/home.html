@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Absolute Cinema</title>
+        <link rel="stylesheet" href="../css/home.css">
+    </head>
+    <body>
+        
+        <!-- Home -->
+        <main class="home">
+            <section class="banner">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        
+                        <img onclick="showMovieDetails('Duna: Parte Dois',
+                        'https://images.metahub.space/poster/small/tt15239678/img', 
+                        'Paul Atreides se une a Chani e aos Fremen em busca de vingança contra os conspiradores que destruíram sua família.',
+                        '13:00', 
+                        '167 min',
+                        'Sala 1');" id="slide-1" src="https://images.metahub.space/background/medium/tt15239678/img" alt="Dune Two background image">
+                        
+                        <img onclick="showMovieDetails('Oppenheimer',
+                        'https://images.metahub.space/poster/small/tt15398776/img', 
+                        'A história do cientista americano J. Robert Oppenheimer e seu papel no desenvolvimento da bomba atômica.', 
+                        '13:00',
+                        '181 min', 
+                        'Sala 2');" id="slide-2" src="https://images.metahub.space/background/medium/tt15398776/img" alt="Oppenheimer background image">
+                        
+                        <img onclick="showMovieDetails('Godzilla X Kong: The New Empire', 
+                        'https://images.metahub.space/poster/small/tt14539740/img',
+                        'Dois antigos titãs, Godzilla e Kong, enfrentam-se numa batalha épica enquanto os humanos desvendam as suas origens interligadas e a sua ligação aos mistérios da Ilha da Caveira.', 
+                        '13:00', 
+                        '115 min',
+                        'Sala 3');" id="slide-3" src="https://images.metahub.space/background/medium/tt14539740/img" alt="Godzilla-x-Kong background image">
+                        
+                        <img onclick="showMovieDetails('Ghostbusters: Frozen Empire', 
+                        'https://images.metahub.space/poster/small/tt21235248/img',
+                        'Quando a descoberta de um artefato antigo desencadeia uma força maligna, novos e antigos Ghostbusters devem unir forças para proteger seu lar e salvar o mundo de uma segunda era glacial.', 
+                        '19:00', 
+                        '115 min',
+                        'Sala 1');" id="slide-4" src="https://images.metahub.space/background/medium/tt21235248/img" alt="Ghost Busters background image">
+                        
+                        <img onclick="showMovieDetails('Kung Fu Panda 4', 
+                        'https://images.metahub.space/poster/small/tt21692408/img',
+                        'Depois que Po é escolhido para se tornar o Líder Espiritual do Vale da Paz, ele precisa encontrar e treinar um novo Guerreiro Dragão, enquanto uma feiticeira malvada planeja convocar novamente todos os mestres vilões que Po derrotou para o espírito re...', 
+                        '19:00', 
+                        '94 min',
+                        'Sala 2');" id="slide-5" src="https://images.metahub.space/background/medium/tt21692408/img" alt="Kung Fu Panda 4 background image">
+                    </div>
+                </div>
+            </section>
+            <!-- Movies -->
+            <section class="movies">
+                <h1> Em cartaz essa semana </h1>
+                <!-- Movies Container -->
+                <div class="movies-container">
+                    <!-- Box 1 -->
+                    <div class="movie-box">
+                        <div class="movie-box-img" onclick="showMovieDetails('Duna: Parte Dois',
+                        'https://images.metahub.space/poster/small/tt15239678/img', 
+                        'Paul Atreides se une a Chani e aos Fremen em busca de vingança contra os conspiradores que destruíram sua família.',
+                        '13:00', 
+                        '167 min',
+                        'Sala 1');">
+                            <img src="https://images.metahub.space/poster/small/tt15239678/img" alt="">
+                        </div>
+                        <h3>Duna: Parte Dois</h3>
+                        <span>167 min | Ação</span>
+                    </div>
+                    <!-- Box 2 -->
+                    <div class="movie-box">
+                        <div class="movie-box-img" onclick="showMovieDetails('Oppenheimer',
+                        'https://images.metahub.space/poster/small/tt15398776/img', 
+                        'A história do cientista americano J. Robert Oppenheimer e seu papel no desenvolvimento da bomba atômica.', 
+                        '13:00',
+                        '181 min', 
+                        'Sala 2');">
+                            <img src="https://images.metahub.space/poster/small/tt15398776/img" alt="">
+                        </div>
+                        <h3>Oppenheimer</h3>
+                        <span>181 min | Biografia</span>
+                    </div>
+                    <!-- Box 3 -->
+                    <div class="movie-box">
+                        <div class="movie-box-img" onclick="showMovieDetails('Godzilla X Kong: The New Empire', 
+                        'https://images.metahub.space/poster/small/tt14539740/img',
+                        'Dois antigos titãs, Godzilla e Kong, enfrentam-se numa batalha épica enquanto os humanos desvendam as suas origens interligadas e a sua ligação aos mistérios da Ilha da Caveira.', 
+                        '13:00', 
+                        '115 min',
+                        'Sala 3');">
+                            <img src="https://images.metahub.space/poster/small/tt14539740/img" alt="">
+                        </div>
+                        <h3>Godzilla X Kong: The New Empire</h3>
+                        <span>115 min | Ação</span>
+                    </div>
+                    <!-- Box 4 -->
+                    <div class="movie-box">
+                        <div class="movie-box-img" onclick="showMovieDetails('Ghostbusters: Frozen Empire', 
+                        'https://images.metahub.space/poster/small/tt21235248/img',
+                        'Quando a descoberta de um artefato antigo desencadeia uma força maligna, novos e antigos Ghostbusters devem unir forças para proteger seu lar e salvar o mundo de uma segunda era glacial.', 
+                        '19:00', 
+                        '115 min',
+                        'Sala 1');">
+                            <img src="https://images.metahub.space/poster/small/tt21235248/img" alt="">
+                        </div>
+                        <h3>Ghostbusters: Frozen Empire</h3>
+                        <span>115 min | Aventura</span>
+                    </div>
+                    <!-- Box 5 -->
+                    <div class="movie-box">
+                        <div class="movie-box-img" onclick="showMovieDetails('Kung Fu Panda 4', 
+                        'https://images.metahub.space/poster/small/tt21692408/img',
+                        'Depois que Po é escolhido para se tornar o Líder Espiritual do Vale da Paz, ele precisa encontrar e treinar um novo Guerreiro Dragão, enquanto uma feiticeira malvada planeja convocar novamente todos os mestres vilões que Po derrotou para o espírito re...', 
+                        '19:00', 
+                        '94 min',
+                        'Sala 2');">
+                            <img src="https://images.metahub.space/poster/small/tt21692408/img" alt="">
+                        </div>
+                        <h3>Kung Fu Panda 4</h3>
+                        <span>94 min | Animação</span>
+                    </div>
+                    <!-- Box 6 -->
+                    <div class="movie-box">
+                        <div class="movie-box-img" onclick="showMovieDetails('Abigail', 
+                        'https://images.metahub.space/poster/small/tt27489557/img',
+                        'Depois que um grupo de criminosos sequestram a filha bailarina de uma figura poderosa do submundo, eles recuam para uma mansão isolada, sem saber que estão trancados lá dentro, com uma garota nada normal.', 
+                        '19:00', 
+                        '109 min',
+                        'Sala 3');">
+                            <img src="https://images.metahub.space/poster/small/tt27489557/img" alt="">
+                        </div>
+                        <h3>Abigail</h3>
+                        <span>109 min | Terror</span>
+                    </div>
+                </div>
+
+                <div id="popup-screen" class="popup">
+                    <div class="popup-content">
+                        <div class="popup-header">
+                            <h2>Sobre o Filme</h2>
+                            <div class="close-button">
+                                <span class="close">x</span>
+                            </div>
+                        </div>
+                        <p id="title" class="popup-text"></p>
+                        <p id="summary" class="popup-text"></p>
+                        <div id="schedule-container" class="popup-text"></div>
+                        <p id="rooms" class="popup-text"></p>
+                        <button id="confirm-button">Confirmar</button>
+                    </div>
+                </div>
+                
+            </section>
+        </main>
+    </body>
+    <script src="../scripts/home.js"></script>
+</html>

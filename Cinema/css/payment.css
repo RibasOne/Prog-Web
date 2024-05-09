@@ -1,0 +1,79 @@
+/*Font from google*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #1f2025;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(155,170,175,1) 35%, rgba(65,90,100,1) 100%); 
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background: #1f2025;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: #fff 2px solid;
+    border-radius: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#confirm-button {
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+    display: block;
+    transition: ease 0.3s;
+}
+
+#confirm-button:hover {
+    cursor: pointer;
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+#paymentStatus {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Selecione o seu Assento</title>
+        <link rel="stylesheet" href="../css/seats.css">
+    </head>
+    
+    <body>
+
+        <h1> Selecione Seu Assento </h1>
+
+        <div id="content">
+            <aside id="side-bar">
+                <img id="movie-image" src="" alt="Imagem do filme">
+                <p id="movie-name"></p>
+                <p id="movie-time"></p>
+                <p id="movie-duration"></p>
+                <p id="movie-room"></p>
+            </aside>
+
+            <main id="seat-selection">
+                <ol type="A">
+                    <li>
+                        <span class="row-label">H</span>
+                        <ul class="seat-row">
+                            <li class="available" onclick="selectSeat(this, 'H1')">1</li>
+                            <li class="available" onclick="selectSeat(this, 'H2')">2</li>
+                            <li class="available" onclick="selectSeat(this, 'H3')">3</li>
+                            <li class="available" onclick="selectSeat(this, 'H4')">4</li>
+                            <li class="selected" onclick="selectSeat(this, 'H5')">5</li>
+                            <li class="selected" onclick="selectSeat(this, 'H6')">6</li>
+                            <li class="selected" onclick="selectSeat(this, 'H7')">7</li>
+                            <li class="available" onclick="selectSeat(this, 'H8')">8</li>
+                            <li class="available" onclick="selectSeat(this, 'H9')">9</li>
+                            <li class="available" onclick="selectSeat(this, 'H10')">10</li>
+                            <li class="available" onclick="selectSeat(this, 'H11')">11</li>
+                            <li class="available" onclick="selectSeat(this, 'H12')">12</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="row-label">G</span>
+                        <ul class="seat-row">
+                            <li class="available" onclick="selectSeat(this, 'G1')">1</li>
+                            <li class="available" onclick="selectSeat(this, 'G2')">2</li>
+                            <li class="available" onclick="selectSeat(this, 'G3')">3</li>
+                            <li class="selected" onclick="selectSeat(this, 'G4')">4</li>
+                            <li class="selected" onclick="selectSeat(this, 'G5')">5</li>
+                            <li class="available" onclick="selectSeat(this, 'G6')">6</li>
+                            <li class="available" onclick="selectSeat(this, 'G7')">7</li>
+                            <li class="available" onclick="selectSeat(this, 'G8')">8</li>
+                            <li class="available" onclick="selectSeat(this, 'G9')">9</li>
+                            <li class="available" onclick="selectSeat(this, 'G10')">10</li>
+                            <li class="available" onclick="selectSeat(this, 'G11')">11</li>
+                            <li class="available" onclick="selectSeat(this, 'G12')">12</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="row-label">F</span>
+                        <ul class="seat-row">
+                            <li class="available" onclick="selectSeat(this, 'F1')">1</li>
+                            <li class="selected" onclick="selectSeat(this, 'F2')">2</li>
+                            <li class="selected" onclick="selectSeat(this, 'F3')">3</li>
+                            <li class="available" onclick="selectSeat(this, 'F4')">4</li>
+                            <li class="available" onclick="selectSeat(this, 'F5')">5</li>
+                            <li class="available" onclick="selectSeat(this, 'F6')">6</li>
+                            <li class="available" onclick="selectSeat(this, 'F7')">7</li>
+                            <li class="available" onclick="selectSeat(this, 'F8')">8</li>
+                            <li class="available" onclick="selectSeat(this, 'F9')">9</li>
+                            <li class="selected" onclick="selectSeat(this, 'F10')">10</li>
+                            <li class="selected" onclick="selectSeat(this, 'F11')">11</li>
+                            <li class="selected" onclick="selectSeat(this, 'F12')">12</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="row-label">E</span>
+                        <ul class="seat-row">
+                            <li class="available" onclick="selectSeat(this, 'E1')">1</li>
+                            <li class="available" onclick="selectSeat(this, 'E2')">2</li>
+                            <li class="available" onclick="selectSeat(this, 'E3')">3</li>
+                            <li class="available" onclick="selectSeat(this, 'E4')">4</li>
+                            <li class="available" onclick="selectSeat(this, 'E5')">5</li>
+                            <li class="available" onclick="selectSeat(this, 'E6')">6</li>
+                            <li class="available" onclick="selectSeat(this, 'E7')">7</li>
+                            <li class="available" onclick="selectSeat(this, 'E8')">8</li>
+                            <li class="available" onclick="selectSeat(this, 'E9')">9</li>
+                            <li class="available" onclick="selectSeat(this, 'E10')">10</li>
+                            <li class="available" onclick="selectSeat(this, 'E11')">11</li>
+                            <li class="available" onclick="selectSeat(this, 'E12')">12</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="row-label">D</span>
+                        <ul class="seat-row">
+                            <li class="available" onclick="selectSeat(this, 'D1')">1</li>
+                            <li class="available" onclick="selectSeat(this, 'D2')">2</li>
+                            <li class="available" onclick="selectSeat(this, 'D3')">3</li>
+                            <li class="available" onclick="selectSeat(this, 'D4')">4</li>
+                            <li class="available" onclick="selectSeat(this, 'D5')">5</li>
+                            <li class="available" onclick="selectSeat(this, 'D6')">6</li>
+                            <li class="selected" onclick="selectSeat(this, 'D7')">7</li>
+                            <li class="selected" onclick="selectSeat(this, 'D8')">8</li>
+                            <li class="selected" onclick="selectSeat(this, 'D9')">9</li>
+                            <li class="available" onclick="selectSeat(this, 'D10')">10</li>
+                            <li class="available" onclick="selectSeat(this, 'D11')">11</li>
+                            <li class="available" onclick="selectSeat(this, 'D12')">12</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="row-label">C</span>
+                        <ul class="seat-row">
+                            <li class="selected" onclick="selectSeat(this, 'C1')">1</li>
+                            <li class="selected" onclick="selectSeat(this, 'C2')">2</li>
+                            <li class="available" onclick="selectSeat(this, 'C3')">3</li>
+                            <li class="available" onclick="selectSeat(this, 'C4')">4</li>
+                            <li class="available" onclick="selectSeat(this, 'C5')">5</li>
+                            <li class="available" onclick="selectSeat(this, 'C6')">6</li>
+                            <li class="available" onclick="selectSeat(this, 'C7')">7</li>
+                            <li class="selected" onclick="selectSeat(this, 'C8')">8</li>
+                            <li class="selected" onclick="selectSeat(this, 'C9')">9</li>
+                            <li class="selected" onclick="selectSeat(this, 'C10')">10</li>
+                            <li class="available" onclick="selectSeat(this, 'C11')">11</li>
+                            <li class="available" onclick="selectSeat(this, 'C12')">12</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="row-label">B</span>
+                        <ul class="seat-row">
+                            <li class="available" onclick="selectSeat(this, 'B1')">1</li>
+                            <li class="available" onclick="selectSeat(this, 'B2')">2</li>
+                            <li class="available" onclick="selectSeat(this, 'B3')">3</li>
+                            <li class="available" onclick="selectSeat(this, 'B4')">4</li>
+                            <li class="available" onclick="selectSeat(this, 'B5')">5</li>
+                            <li class="available" onclick="selectSeat(this, 'B6')">6</li>
+                            <li class="available" onclick="selectSeat(this, 'B7')">7</li>
+                            <li class="available" onclick="selectSeat(this, 'B8')">8</li>
+                            <li class="available" onclick="selectSeat(this, 'B9')">9</li>
+                            <li class="available" onclick="selectSeat(this, 'B10')">10</li>
+                            <li class="available" onclick="selectSeat(this, 'B11')">11</li>
+                            <li class="available" onclick="selectSeat(this, 'B12')">12</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="row-label">A</span>
+                        <ul class="seat-row">
+                            <li class="available" onclick="selectSeat(this, 'A1')">1</li>
+                            <li class="available" onclick="selectSeat(this, 'A2')">2</li>
+                            <li class="available" onclick="selectSeat(this, 'A3')">3</li>
+                            <li class="selected" onclick="selectSeat(this, 'A4')">4</li>
+                            <li class="selected" onclick="selectSeat(this, 'A5')">5</li>
+                            <li class="available" onclick="selectSeat(this, 'A6')">6</li>
+                            <li class="available" onclick="selectSeat(this, 'A7')">7</li>
+                            <li class="available" onclick="selectSeat(this, 'A8')">8</li>
+                            <li class="available" onclick="selectSeat(this, 'A9')">9</li>
+                            <li class="available" onclick="selectSeat(this, 'A10')">10</li>
+                            <li class="available" onclick="selectSeat(this, 'A11')">11</li>
+                            <li class="available" onclick="selectSeat(this, 'A12')">12</li>
+                        </ul>
+                    </li>
+                </ol>
+            </main>
+            
+        </div>
+
+        <section id="selected-seats-container">
+            <h2>TELA</h2>
+            <div class="seats-price"></div>
+            <button id="confirm-button" onclick="confirmSelection()">Confirmar</button>
+        </section>
+    </body>
+    <script src="../scripts/seats.js"></script>
+</html>
